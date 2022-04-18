@@ -1,0 +1,38 @@
+Started by user [8mha:////4MshOPe+BNh86wgY5raMtuAuv12BbMgmbg5bMBp1G0QkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Started by user [8mha:////4MshOPe+BNh86wgY5raMtuAuv12BbMgmbg5bMBp1G0QkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/deploy-2war
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/deploy-2war/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rgguruprakash/sparkjava-war-example.git # timeout=10
+Fetching upstream changes from https://github.com/rgguruprakash/sparkjava-war-example.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/rgguruprakash/sparkjava-war-example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 99484298060ecc6d7967293a8d08ff8e3630d80f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99484298060ecc6d7967293a8d08ff8e3630d80f # timeout=10
+Commit message: "Add slf4j-simple for logging"
+ > git rev-list --no-walk 99484298060ecc6d7967293a8d08ff8e3630d80f # timeout=10
+[deploy-2war] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven-latest/bin/mvn clean deploy
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< sparkjava-hello-world:sparkjava-hello-world >-------------
+[INFO] Building sparkjava-hello-world 1.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sparkjava-hello-world ---
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-java) @ sparkjava-hello-world ---
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sparkjava-hello-world ---
+[8mha:////4CyMsseWwb/VXqYwkJjMED9mOViD/bEKfcLr5iSxT7tKAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/deploy-2war/src/main/resources
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sparkjava-hello-world ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4CyMsseWwb/VXqYwkJjMED9mOViD/bEKfcLr5iSxT7tKAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/deploy-2war/target/classes

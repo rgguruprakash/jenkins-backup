@@ -1,0 +1,77 @@
+Started by user [8mha:////4MshOPe+BNh86wgY5raMtuAuv12BbMgmbg5bMBp1G0QkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/deploy-2war
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/deploy-2war/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rgguruprakash/sparkjava-war-example.git # timeout=10
+Fetching upstream changes from https://github.com/rgguruprakash/sparkjava-war-example.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/rgguruprakash/sparkjava-war-example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 99484298060ecc6d7967293a8d08ff8e3630d80f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99484298060ecc6d7967293a8d08ff8e3630d80f # timeout=10
+Commit message: "Add slf4j-simple for logging"
+ > git rev-list --no-walk 99484298060ecc6d7967293a8d08ff8e3630d80f # timeout=10
+[deploy-2war] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven-latest/bin/mvn clean install
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< sparkjava-hello-world:sparkjava-hello-world >-------------
+[INFO] Building sparkjava-hello-world 1.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sparkjava-hello-world ---
+[INFO] Deleting /var/lib/jenkins/workspace/deploy-2war/target
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-java) @ sparkjava-hello-world ---
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sparkjava-hello-world ---
+[8mha:////4CyMsseWwb/VXqYwkJjMED9mOViD/bEKfcLr5iSxT7tKAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/deploy-2war/src/main/resources
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sparkjava-hello-world ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4CyMsseWwb/VXqYwkJjMED9mOViD/bEKfcLr5iSxT7tKAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/deploy-2war/target/classes
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sparkjava-hello-world ---
+[8mha:////4CyMsseWwb/VXqYwkJjMED9mOViD/bEKfcLr5iSxT7tKAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/deploy-2war/src/test/resources
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sparkjava-hello-world ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sparkjava-hello-world ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ sparkjava-hello-world ---
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/var/lib/jenkins/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [sparkjava-hello-world] in [/var/lib/jenkins/workspace/deploy-2war/target/sparkjava-hello-world-1.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/deploy-2war/src/main/webapp]
+[INFO] Webapp assembled in [133 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/deploy-2war/target/sparkjava-hello-world-1.0.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ sparkjava-hello-world ---
+[INFO] Installing /var/lib/jenkins/workspace/deploy-2war/target/sparkjava-hello-world-1.0.war to /var/lib/jenkins/.m2/repository/sparkjava-hello-world/sparkjava-hello-world/1.0/sparkjava-hello-world-1.0.war
+[INFO] Installing /var/lib/jenkins/workspace/deploy-2war/pom.xml to /var/lib/jenkins/.m2/repository/sparkjava-hello-world/sparkjava-hello-world/1.0/sparkjava-hello-world-1.0.pom
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  6.413 s
+[INFO] Finished at: 2022-04-16T15:44:53Z
+[INFO] ------------------------------------------------------------------------
+[DeployPublisher][INFO] Attempting to deploy 1 war file(s)
+[DeployPublisher][INFO] Deploying /var/lib/jenkins/workspace/deploy-2war/target/sparkjava-hello-world-1.0.war to container Tomcat 9.x Remote with context null
+  [/var/lib/jenkins/workspace/deploy-2war/target/sparkjava-hello-world-1.0.war] is not deployed. Doing a fresh deployment.
+  Deploying [/var/lib/jenkins/workspace/deploy-2war/target/sparkjava-hello-world-1.0.war]
+Finished: SUCCESS

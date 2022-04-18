@@ -1,0 +1,11 @@
+Started by upstream project "[8mha:////4IFHM0wwYOkMDGmCb1YLGYVHoIIi3+gwsw7kL4DGaZZdAAAAmB+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAy2EgYe/az8JP2U1IKc/Ep9AE110wvBAAAA[0mdeploy" build number [8mha:////4AsgrGQWbKRlNNxbu0cYf/RYWtPk/clQUY0T4A7ehGryAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAymEgY+/az8JP2U1IKc/Ep9Q3MA/Wmv+cMAAAA=[0m17
+originally caused by:
+ Started by user [8mha:////4MshOPe+BNh86wgY5raMtuAuv12BbMgmbg5bMBp1G0QkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/test
+[test] $ /bin/sh -xe /tmp/jenkins15774440287423490642.sh
++ echo 'will run test cases given by testing team. if there are any test failures taken by testimg team. 
+if there are any integration issues will be taken by devops team'
+will run test cases given by testing team. if there are any test failures taken by testimg team. 
+if there are any integration issues will be taken by devops team
+Finished: SUCCESS

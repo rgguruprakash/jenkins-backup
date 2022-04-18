@@ -1,0 +1,34 @@
+Started by user [8mha:////4MshOPe+BNh86wgY5raMtuAuv12BbMgmbg5bMBp1G0QkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building remotely on [8mha:////4B8csaPWYiqR3hn7Rk/57h9qgJ/tUGckppfv0nH4PNZJAAAAmh+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZ+/eT83ILSktQi/TygO40AumLp3sQAAAA=[0mnode2 (slave-java2) in workspace /home/jenkins/workspace/simple-java
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /home/jenkins/workspace/simple-java/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rgguruprakash/simple-java-project.git # timeout=10
+Fetching upstream changes from https://github.com/rgguruprakash/simple-java-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.25.1'
+ > git fetch --tags --force --progress -- https://github.com/rgguruprakash/simple-java-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2c8575aebc79825a20fb95e180b4b932c40283bf (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2c8575aebc79825a20fb95e180b4b932c40283bf # timeout=10
+Commit message: "a"
+ > git rev-list --no-walk 2c8575aebc79825a20fb95e180b4b932c40283bf # timeout=10
+[simple-java] $ /home/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven-latest/bin/mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ---------------< works.buddy.samples:works-with-heroku >----------------
+[INFO] Building works-with-heroku 1.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ works-with-heroku ---
+[INFO] Deleting /home/jenkins/workspace/simple-java/target
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.529 s
+[INFO] Finished at: 2022-04-16T08:04:54Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS

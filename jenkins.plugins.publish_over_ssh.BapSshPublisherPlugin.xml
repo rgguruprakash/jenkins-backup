@@ -1,0 +1,73 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<jenkins.plugins.publish__over__ssh.BapSshPublisherPlugin_-Descriptor plugin="publish-over-ssh@1.24">
+  <hostConfigurations>
+    <jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+      <name></name>
+      <hostname></hostname>
+      <username></username>
+      <secretPassword>{AQAAABAAAAAQO9Flob0Yfpv8KQVF1uf0ItSo1alFzmsVxZAnz/RPQiY=}</secretPassword>
+      <remoteRootDir></remoteRootDir>
+      <port>22</port>
+      <commonConfig class="jenkins.plugins.publish_over_ssh.BapSshCommonConfiguration">
+        <secretPassphrase>{AQAAABAAAAAQQEKMGRh0TV1mVXqPUoj/0GTfdr1dNzqkFI+DJeg3900=}</secretPassphrase>
+        <key>-----BEGIN OPENSSH PRIVATE KEY-----
+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
+bXB1dGUuaW50ZXJuYWwBAgMEBQY=
+-----END OPENSSH PRIVATE KEY-----</key>
+        <keyPath></keyPath>
+        <disableAllExec>false</disableAllExec>
+      </commonConfig>
+      <timeout>300000</timeout>
+      <overrideKey>false</overrideKey>
+      <disableExec>false</disableExec>
+      <keyInfo>
+        <secretPassphrase>{AQAAABAAAAAQ7diF3k+AEcFSeIcZ07aI5Z17JzC9cXyM0l10RGngHj8=}</secretPassphrase>
+        <key></key>
+        <keyPath></keyPath>
+      </keyInfo>
+      <jumpHost></jumpHost>
+      <proxyType></proxyType>
+      <proxyHost></proxyHost>
+      <proxyPort>0</proxyPort>
+      <proxyUser></proxyUser>
+      <secretProxyPassword>{AQAAABAAAAAQm7BAYGUbnmYnInCfACg+Lh0moQ8X/eR0zZb4pqCosbk=}</secretProxyPassword>
+    </jenkins.plugins.publish__over__ssh.BapSshHostConfiguration>
+  </hostConfigurations>
+  <commonConfig reference="../hostConfigurations/jenkins.plugins.publish__over__ssh.BapSshHostConfiguration/commonConfig"/>
+  <defaults class="jenkins.plugins.publish_over_ssh.options.SshPluginDefaults"/>
+</jenkins.plugins.publish__over__ssh.BapSshPublisherPlugin_-Descriptor>

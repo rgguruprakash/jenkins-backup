@@ -1,0 +1,106 @@
+Started by user [8mha:////4MshOPe+BNh86wgY5raMtuAuv12BbMgmbg5bMBp1G0QkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/deploy-2war
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/deploy-2war/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rgguruprakash/sparkjava-war-example.git # timeout=10
+Fetching upstream changes from https://github.com/rgguruprakash/sparkjava-war-example.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/rgguruprakash/sparkjava-war-example.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 99484298060ecc6d7967293a8d08ff8e3630d80f (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 99484298060ecc6d7967293a8d08ff8e3630d80f # timeout=10
+Commit message: "Add slf4j-simple for logging"
+ > git rev-list --no-walk 99484298060ecc6d7967293a8d08ff8e3630d80f # timeout=10
+[deploy-2war] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven-latest/bin/mvn clean deploy
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] ------------< sparkjava-hello-world:sparkjava-hello-world >-------------
+[INFO] Building sparkjava-hello-world 1.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ sparkjava-hello-world ---
+[INFO] Deleting /var/lib/jenkins/workspace/deploy-2war/target
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-enforcer-plugin:1.3.1:enforce (enforce-java) @ sparkjava-hello-world ---
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:resources (default-resources) @ sparkjava-hello-world ---
+[8mha:////4CyMsseWwb/VXqYwkJjMED9mOViD/bEKfcLr5iSxT7tKAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/deploy-2war/src/main/resources
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:compile (default-compile) @ sparkjava-hello-world ---
+[INFO] Changes detected - recompiling the module!
+[8mha:////4CyMsseWwb/VXqYwkJjMED9mOViD/bEKfcLr5iSxT7tKAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] File encoding has not been set, using platform encoding UTF-8, i.e. build is platform dependent!
+[INFO] Compiling 1 source file to /var/lib/jenkins/workspace/deploy-2war/target/classes
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-resources-plugin:2.6:testResources (default-testResources) @ sparkjava-hello-world ---
+[8mha:////4CyMsseWwb/VXqYwkJjMED9mOViD/bEKfcLr5iSxT7tKAAAAYh+LCAAAAAAAAP9b85aBtbiIQSWjNKU4P0+vJLE4u1gvPjexLDVPzxdEhicW5WXmpfvll6SeOJwgmrt9CSsTA0NFEYMUVEtyfl5xfk6qnjOEBilkgABGkMICAEQzmI1iAAAA[0m[WARNING] Using platform encoding (UTF-8 actually) to copy filtered resources, i.e. build is platform dependent!
+[INFO] skip non existing resourceDirectory /var/lib/jenkins/workspace/deploy-2war/src/test/resources
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-compiler-plugin:3.1:testCompile (default-testCompile) @ sparkjava-hello-world ---
+[INFO] No sources to compile
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-surefire-plugin:2.12.4:test (default-test) @ sparkjava-hello-world ---
+[INFO] No tests to run.
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-war-plugin:2.2:war (default-war) @ sparkjava-hello-world ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom
+Progress (1): 2.7/4.5 kBProgress (1): 4.5 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.pom (4.5 kB at 2.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom
+Progress (1): 2.7/2.8 kBProgress (1): 2.8 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.pom (2.8 kB at 7.9 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom
+Progress (1): 1.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.pom (1.7 kB at 5.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom
+Progress (1): 2.7 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-components/1.1.19/plexus-components-1.1.19.pom (2.7 kB at 7.8 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom
+Progress (1): 2.7/19 kBProgress (1): 5.5/19 kBProgress (1): 8.2/19 kBProgress (1): 11/19 kB Progress (1): 14/19 kBProgress (1): 16/19 kBProgress (1): 19/19 kBProgress (1): 19 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus/3.0.1/plexus-3.0.1.pom (19 kB at 48 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom
+Progress (1): 1.0 kB                    Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.pom (1.0 kB at 3.0 kB/s)
+Downloading from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar
+Progress (1): 2.7/22 kBProgress (1): 5.5/22 kBProgress (1): 8.2/22 kBProgress (1): 11/22 kB Progress (1): 14/22 kBProgress (1): 16/22 kBProgress (1): 19/22 kBProgress (1): 21/22 kBProgress (1): 22 kB                      Downloaded from central: https://repo.maven.apache.org/maven2/org/apache/maven/maven-archiver/2.5/maven-archiver-2.5.jar (22 kB at 49 kB/s)
+Progress (1): 2.7/60 kBProgress (1): 5.5/60 kBProgress (1): 8.2/60 kBProgress (1): 11/60 kB Progress (1): 14/60 kBProgress (1): 16/60 kBProgress (1): 19/60 kBProgress (2): 19/60 kB | 2.7/58 kBProgress (2): 19/60 kB | 5.5/58 kBProgress (2): 19/60 kB | 8.2/58 kBProgress (2): 19/60 kB | 11/58 kB Progress (2): 21/60 kB | 11/58 kBProgress (3): 21/60 kB | 11/58 kB | 2.7/184 kBProgress (3): 21/60 kB | 11/58 kB | 5.5/184 kBProgress (3): 21/60 kB | 11/58 kB | 8.2/184 kBProgress (3): 21/60 kB | 11/58 kB | 11/184 kB Progress (3): 21/60 kB | 11/58 kB | 14/184 kBProgress (3): 24/60 kB | 11/58 kB | 14/184 kBProgress (3): 27/60 kB | 11/58 kB | 14/184 kBProgress (3): 27/60 kB | 14/58 kB | 14/184 kBProgress (3): 27/60 kB | 16/58 kB | 14/184 kBProgress (3): 27/60 kB | 19/58 kB | 14/184 kBProgress (3): 27/60 kB | 21/58 kB | 14/184 kBProgress (3): 27/60 kB | 21/58 kB | 16/184 kBProgress (3): 27/60 kB | 21/58 kB | 19/184 kBProgress (3): 27/60 kB | 24/58 kB | 19/184 kBProgress (3): 27/60 kB | 24/58 kB | 22/184 kBProgress (3): 27/60 kB | 24/58 kB | 25/184 kBProgress (3): 30/60 kB | 24/58 kB | 25/184 kBProgress (3): 32/60 kB | 24/58 kB | 25/184 kBProgress (3): 35/60 kB | 24/58 kB | 25/184 kBProgress (3): 38/60 kB | 24/58 kB | 25/184 kBProgress (3): 38/60 kB | 27/58 kB | 25/184 kBProgress (3): 38/60 kB | 30/58 kB | 25/184 kBProgress (3): 38/60 kB | 32/58 kB | 25/184 kBProgress (3): 38/60 kB | 32/58 kB | 27/184 kBProgress (3): 40/60 kB | 32/58 kB | 27/184 kBProgress (3): 43/60 kB | 32/58 kB | 27/184 kBProgress (3): 46/60 kB | 32/58 kB | 27/184 kBProgress (3): 46/60 kB | 32/58 kB | 30/184 kBProgress (3): 46/60 kB | 35/58 kB | 30/184 kBProgress (3): 46/60 kB | 38/58 kB | 30/184 kBProgress (3): 46/60 kB | 38/58 kB | 33/184 kBProgress (3): 49/60 kB | 38/58 kB | 33/184 kBProgress (3): 51/60 kB | 38/58 kB | 33/184 kBProgress (3): 54/60 kB | 38/58 kB | 33/184 kBProgress (3): 54/60 kB | 40/58 kB | 33/184 kBProgress (3): 54/60 kB | 40/58 kB | 36/184 kBProgress (3): 57/60 kB | 40/58 kB | 36/184 kBProgress (3): 57/60 kB | 43/58 kB | 36/184 kBProgress (3): 57/60 kB | 46/58 kB | 36/184 kBProgress (3): 57/60 kB | 49/58 kB | 36/184 kBProgress (3): 57/60 kB | 51/58 kB | 36/184 kBProgress (3): 57/60 kB | 51/58 kB | 38/184 kBProgress (3): 57/60 kB | 51/58 kB | 41/184 kBProgress (3): 57/60 kB | 51/58 kB | 44/184 kBProgress (3): 57/60 kB | 51/58 kB | 46/184 kBProgress (3): 60/60 kB | 51/58 kB | 46/184 kBProgress (3): 60 kB | 51/58 kB | 46/184 kB   Progress (3): 60 kB | 54/58 kB | 46/184 kBProgress (3): 60 kB | 54/58 kB | 49/184 kBProgress (3): 60 kB | 57/58 kB | 49/184 kBProgress (3): 60 kB | 58 kB | 49/184 kB   Progress (3): 60 kB | 58 kB | 53/184 kBProgress (3): 60 kB | 58 kB | 57/184 kBProgress (3): 60 kB | 58 kB | 61/184 kBProgress (3): 60 kB | 58 kB | 66/184 kBProgress (3): 60 kB | 58 kB | 70/184 kBProgress (3): 60 kB | 58 kB | 74/184 kBProgress (3): 60 kB | 58 kB | 78/184 kBProgress (3): 60 kB | 58 kB | 82/184 kBProgress (3): 60 kB | 58 kB | 86/184 kBProgress (3): 60 kB | 58 kB | 90/184 kBProgress (3): 60 kB | 58 kB | 94/184 kBProgress (3): 60 kB | 58 kB | 98/184 kBProgress (3): 60 kB | 58 kB | 102/184 kBProgress (3): 60 kB | 58 kB | 106/184 kBProgress (3): 60 kB | 58 kB | 111/184 kBProgress (3): 60 kB | 58 kB | 115/184 kB                                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-interpolation/1.15/plexus-interpolation-1.15.jar (60 kB at 63 kB/s)
+Progress (2): 58 kB | 119/184 kBProgress (2): 58 kB | 123/184 kBProgress (2): 58 kB | 127/184 kBProgress (2): 58 kB | 131/184 kB                                Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-io/2.0.2/plexus-io-2.0.2.jar (58 kB at 59 kB/s)
+Progress (1): 135/184 kBProgress (1): 139/184 kBProgress (1): 143/184 kBProgress (1): 147/184 kBProgress (1): 152/184 kBProgress (1): 156/184 kBProgress (1): 160/184 kBProgress (1): 164/184 kBProgress (1): 168/184 kBProgress (1): 172/184 kBProgress (1): 176/184 kBProgress (1): 180/184 kBProgress (1): 184/184 kBProgress (1): 184 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-archiver/2.1/plexus-archiver-2.1.jar (184 kB at 155 kB/s)
+WARNING: An illegal reflective access operation has occurred
+WARNING: Illegal reflective access by com.thoughtworks.xstream.core.util.Fields (file:/var/lib/jenkins/.m2/repository/com/thoughtworks/xstream/xstream/1.3.1/xstream-1.3.1.jar) to field java.util.Properties.defaults
+WARNING: Please consider reporting this to the maintainers of com.thoughtworks.xstream.core.util.Fields
+WARNING: Use --illegal-access=warn to enable warnings of further illegal reflective access operations
+WARNING: All illegal access operations will be denied in a future release
+[INFO] Packaging webapp
+[INFO] Assembling webapp [sparkjava-hello-world] in [/var/lib/jenkins/workspace/deploy-2war/target/sparkjava-hello-world-1.0]
+[INFO] Processing war project
+[INFO] Copying webapp resources [/var/lib/jenkins/workspace/deploy-2war/src/main/webapp]
+[INFO] Webapp assembled in [122 msecs]
+[INFO] Building war: /var/lib/jenkins/workspace/deploy-2war/target/sparkjava-hello-world-1.0.war
+[INFO] WEB-INF/web.xml already added, skipping
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-install-plugin:2.4:install (default-install) @ sparkjava-hello-world ---
+[INFO] Installing /var/lib/jenkins/workspace/deploy-2war/target/sparkjava-hello-world-1.0.war to /var/lib/jenkins/.m2/repository/sparkjava-hello-world/sparkjava-hello-world/1.0/sparkjava-hello-world-1.0.war
+[INFO] Installing /var/lib/jenkins/workspace/deploy-2war/pom.xml to /var/lib/jenkins/.m2/repository/sparkjava-hello-world/sparkjava-hello-world/1.0/sparkjava-hello-world-1.0.pom
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-deploy-plugin:2.7:deploy (default-deploy) @ sparkjava-hello-world ---
+Downloading from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar
+Progress (1): 4.1/251 kBProgress (1): 8.2/251 kBProgress (1): 12/251 kB Progress (1): 16/251 kBProgress (1): 20/251 kBProgress (1): 24/251 kBProgress (1): 28/251 kBProgress (1): 32/251 kBProgress (1): 36/251 kBProgress (1): 40/251 kBProgress (1): 45/251 kBProgress (1): 49/251 kBProgress (1): 53/251 kBProgress (1): 57/251 kBProgress (1): 61/251 kBProgress (1): 65/251 kBProgress (1): 69/251 kBProgress (1): 73/251 kBProgress (1): 77/251 kBProgress (1): 81/251 kBProgress (1): 85/251 kBProgress (1): 90/251 kBProgress (1): 94/251 kBProgress (1): 98/251 kBProgress (1): 102/251 kBProgress (1): 106/251 kBProgress (1): 110/251 kBProgress (1): 114/251 kBProgress (1): 118/251 kBProgress (1): 122/251 kBProgress (1): 126/251 kBProgress (1): 131/251 kBProgress (1): 135/251 kBProgress (1): 139/251 kBProgress (1): 143/251 kBProgress (1): 147/251 kBProgress (1): 151/251 kBProgress (1): 155/251 kBProgress (1): 159/251 kBProgress (1): 163/251 kBProgress (1): 167/251 kBProgress (1): 171/251 kBProgress (1): 176/251 kBProgress (1): 180/251 kBProgress (1): 184/251 kBProgress (1): 188/251 kBProgress (1): 192/251 kBProgress (1): 196/251 kBProgress (1): 200/251 kBProgress (1): 204/251 kBProgress (1): 208/251 kBProgress (1): 212/251 kBProgress (1): 217/251 kBProgress (1): 221/251 kBProgress (1): 225/251 kBProgress (1): 229/251 kBProgress (1): 233/251 kBProgress (1): 237/251 kBProgress (1): 241/251 kBProgress (1): 245/251 kBProgress (1): 249/251 kBProgress (1): 251 kB                        Downloaded from central: https://repo.maven.apache.org/maven2/org/codehaus/plexus/plexus-utils/1.5.6/plexus-utils-1.5.6.jar (251 kB at 475 kB/s)
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD FAILURE
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  11.876 s
+[INFO] Finished at: 2022-04-16T15:42:25Z
+[INFO] ------------------------------------------------------------------------
+[8mha:////4J3UP+rC/npc94xWLL83jmm/dP3z7/tneI/O8WNpyx+kAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Failed to execute goal org.apache.maven.plugins:maven-deploy-plugin:2.7:deploy (default-deploy) on project sparkjava-hello-world: Deployment failed: repository element was not specified in the POM inside distributionManagement element or in -DaltDeploymentRepository=id::layout::url parameter -> [Help 1]
+[8mha:////4J3UP+rC/npc94xWLL83jmm/dP3z7/tneI/O8WNpyx+kAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4J3UP+rC/npc94xWLL83jmm/dP3z7/tneI/O8WNpyx+kAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] To see the full stack trace of the errors, re-run Maven with the -e switch.
+[8mha:////4J3UP+rC/npc94xWLL83jmm/dP3z7/tneI/O8WNpyx+kAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] Re-run Maven using the -X switch to enable full debug logging.
+[8mha:////4J3UP+rC/npc94xWLL83jmm/dP3z7/tneI/O8WNpyx+kAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] 
+[8mha:////4J3UP+rC/npc94xWLL83jmm/dP3z7/tneI/O8WNpyx+kAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] For more information about the errors and possible solutions, please read the following articles:
+[8mha:////4J3UP+rC/npc94xWLL83jmm/dP3z7/tneI/O8WNpyx+kAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEuhYV5Rf55Zek1m9pfpLfVWLNxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAABqVhoSYAAAAA==[0m[ERROR] [Help 1] http://cwiki.apache.org/confluence/display/MAVEN/MojoExecutionException
+Build step 'Invoke top-level Maven targets' marked build as failure
+[DeployPublisher][INFO] Build failed, project not deployed
+Finished: FAILURE

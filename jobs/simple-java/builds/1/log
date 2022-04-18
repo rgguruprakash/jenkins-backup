@@ -1,0 +1,23 @@
+Started by user [8mha:////4MshOPe+BNh86wgY5raMtuAuv12BbMgmbg5bMBp1G0QkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/simple-java
+The recommended git tool is: NONE
+using credential e5c4a80f-2436-486a-83fe-08cca36591b8
+Cloning the remote Git repository
+Cloning repository https://github.com/rgguruprakash/simple-java-project.git
+ > git init /var/lib/jenkins/workspace/simple-java # timeout=10
+Fetching upstream changes from https://github.com/rgguruprakash/simple-java-project.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+using GIT_ASKPASS to set credentials 
+ > git fetch --tags --force --progress -- https://github.com/rgguruprakash/simple-java-project.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git config remote.origin.url https://github.com/rgguruprakash/simple-java-project.git # timeout=10
+ > git config --add remote.origin.fetch +refs/heads/*:refs/remotes/origin/* # timeout=10
+Avoid second fetch
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 2c8575aebc79825a20fb95e180b4b932c40283bf (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 2c8575aebc79825a20fb95e180b4b932c40283bf # timeout=10
+Commit message: "a"
+First time build. Skipping changelog.
+Finished: SUCCESS

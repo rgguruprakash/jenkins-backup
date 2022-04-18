@@ -1,0 +1,43 @@
+<?xml version='1.1' encoding='UTF-8'?>
+<build>
+  <actions>
+    <hudson.model.CauseAction>
+      <causeBag class="linked-hash-map">
+        <entry>
+          <hudson.model.Cause_-UpstreamCause>
+            <upstreamProject>deploy-job</upstreamProject>
+            <upstreamUrl>job/deploy-job/</upstreamUrl>
+            <upstreamBuild>4</upstreamBuild>
+            <upstreamCauses>
+              <hudson.model.Cause_-UpstreamCause>
+                <upstreamProject>build-job</upstreamProject>
+                <upstreamUrl>job/build-job/</upstreamUrl>
+                <upstreamBuild>2</upstreamBuild>
+                <upstreamCauses>
+                  <com.cloudbees.jenkins.GitHubPushCause plugin="github@1.34.3">
+                    <pushedBy>rgguruprakash</pushedBy>
+                  </com.cloudbees.jenkins.GitHubPushCause>
+                </upstreamCauses>
+              </hudson.model.Cause_-UpstreamCause>
+            </upstreamCauses>
+          </hudson.model.Cause_-UpstreamCause>
+          <int>2</int>
+        </entry>
+      </causeBag>
+    </hudson.model.CauseAction>
+  </actions>
+  <queueId>115</queueId>
+  <timestamp>1650251427265</timestamp>
+  <startTime>1650251427268</startTime>
+  <result>SUCCESS</result>
+  <duration>135</duration>
+  <charset>UTF-8</charset>
+  <keepLog>false</keepLog>
+  <builtOn>node1</builtOn>
+  <workspace>/home/jenkins/workspace/test-job</workspace>
+  <hudsonVersion>2.332.2</hudsonVersion>
+  <scm class="hudson.scm.NullChangeLogParser"/>
+  <culprits class="java.util.Collections$UnmodifiableSet">
+    <c class="sorted-set"/>
+  </culprits>
+</build>

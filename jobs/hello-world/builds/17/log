@@ -1,0 +1,33 @@
+Started by user [8mha:////4MshOPe+BNh86wgY5raMtuAuv12BbMgmbg5bMBp1G0QkAAAAlx+LCAAAAAAAAP9b85aBtbiIQTGjNKU4P08vOT+vOD8nVc83PyU1x6OyILUoJzMv2y+/JJUBAhiZGBgqihhk0NSjKDWzXb3RdlLBUSYGJk8GtpzUvPSSDB8G5tKinBIGIZ+sxLJE/ZzEvHT94JKizLx0a6BxUmjGOUNodHsLgAzWEgZu/dLi1CL9xJTczDwAj6GcLcAAAAA=[0madmin
+Running as SYSTEM
+Building on the built-in node in workspace /var/lib/jenkins/workspace/hello-world
+The recommended git tool is: NONE
+No credentials specified
+ > git rev-parse --resolve-git-dir /var/lib/jenkins/workspace/hello-world/.git # timeout=10
+Fetching changes from the remote Git repository
+ > git config remote.origin.url https://github.com/rgguruprakash/hello-world-war.git # timeout=10
+Fetching upstream changes from https://github.com/rgguruprakash/hello-world-war.git
+ > git --version # timeout=10
+ > git --version # 'git version 2.27.0'
+ > git fetch --tags --force --progress -- https://github.com/rgguruprakash/hello-world-war.git +refs/heads/*:refs/remotes/origin/* # timeout=10
+ > git rev-parse refs/remotes/origin/master^{commit} # timeout=10
+Checking out Revision 157ee76ce127d16ae7e5b4d811b08f3df9871a37 (refs/remotes/origin/master)
+ > git config core.sparsecheckout # timeout=10
+ > git checkout -f 157ee76ce127d16ae7e5b4d811b08f3df9871a37 # timeout=10
+Commit message: "Merge branch 'master' of github.com:efsavage/hello-world-war"
+ > git rev-list --no-walk 157ee76ce127d16ae7e5b4d811b08f3df9871a37 # timeout=10
+[hello-world] $ /var/lib/jenkins/tools/hudson.tasks.Maven_MavenInstallation/maven-latest/bin/mvn clean
+[INFO] Scanning for projects...
+[INFO] 
+[INFO] --------------------< com.efsavage:hello-world-war >--------------------
+[INFO] Building Hello World Web Application Repository 1.0.0
+[INFO] --------------------------------[ war ]---------------------------------
+[INFO] 
+[8mha:////4IeL8WK610hzb8K6wKXzIsDR65+TZo36lFg9GYFECFwjAAAAYB+LCAAAAAAAAP9b85aBtbiIQSmjNKU4P0+vJLE4u1gvPjexLDVPzxdEGvvmZ+X75Zek2mxOX+vh68DGxMBQUcQgBdWQnJ9XnJ+TqucMoUEKGSCAEaSwAAAn9LoiYAAAAA==[0m[INFO] --- maven-clean-plugin:2.5:clean (default-clean) @ hello-world-war ---
+[INFO] ------------------------------------------------------------------------
+[INFO] BUILD SUCCESS
+[INFO] ------------------------------------------------------------------------
+[INFO] Total time:  0.483 s
+[INFO] Finished at: 2022-04-15T14:04:32Z
+[INFO] ------------------------------------------------------------------------
+Finished: SUCCESS
